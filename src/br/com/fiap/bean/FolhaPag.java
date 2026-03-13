@@ -7,7 +7,7 @@ public class FolhaPag {
     public double valorPlanoDeSaude;
 
     public double calcularSalarioLiquido(){
-        double descontoINSS = salarioBruto * 0.10;
+        descontoINSS = salarioBruto * 0.10;
 
         valorPlanoDeSaude = numeroDeDependentes * 100;
 
