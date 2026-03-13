@@ -24,10 +24,10 @@ public class MainScanner {
             Syste.out.println("Digte o valor do plano de saude: ")
             fp.valorPlanoDeSaude = leitor.nextDouble();
 
-            FolhaPag.salarioBruto = salarioBruto;
-            FolhaPag.numeroDeDependentes = numeroDeDependentes;
-            FolhaPag.descontoINSS = descontoINSS;
-            FolhaPag.valorPlanoDeSaude = valorPlanoDeSaude;
+            fp.salarioBruto = salarioBruto;
+            fp.numeroDeDependentes = numeroDeDependentes;
+            fp.descontoINSS = descontoINSS;
+            fp.valorPlanoDeSaude = valorPlanoDeSaude;
 
             double liquido = fp.calcularSalarioLiquido();
             System.out.printf("Salario Liquido: R$ %.2f %n", liquido);
